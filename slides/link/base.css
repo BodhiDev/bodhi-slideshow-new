@@ -176,6 +176,7 @@ Slide's body text goes inside here.
 .content ul {
 	margin-top:0px;
 	padding-left:20px;
+	padding-right:20px;
 	
 	width:726px; /* was 650px */
 	height:223px;
