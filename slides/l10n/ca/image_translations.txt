@@ -1,0 +1,5 @@
+appcenter.png -> Centre d'Aplicacions
+community.png -> Comunitat
+documentation.png -> Documentació
+donations.png -> Donacions
+welcome.png -> Benvinguts!
