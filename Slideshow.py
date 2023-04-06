@@ -28,9 +28,10 @@ class SlideshowViewer(WebKit2.WebView):
         @param  rtl  True if the given locale should be displayed right-to-left
         '''
         self.path = path
+        self.config_path = path+"/../../"
 
         config = ConfigParser()
-        config.read(os.path.join(self.path, 'slideshow.conf'))
+        config.read(os.path.join(self.config_path, 'slideshow.conf'))
 
         slideshow_main = 'file://' + os.path.join(self.path, 'slides', 'index.html')
 
